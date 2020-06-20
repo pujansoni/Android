@@ -6,3 +6,27 @@ This project is on eMediKart and during the making of this project we explored v
 
 
 ![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/use_case_diagram.JPG)
+
+
+**ER Diagram**
+
+
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/er_diagram.JPG)
+
+
+**Sequence Diagram**
+
+
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/sequence_diagram.JPG)
+
+
+**Activity Diagram**
+
+
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/activity_diagram.JPG)
+
+
+**DFD Diagram**
+
+
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/dfd_diagram.JPG)
