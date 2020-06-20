@@ -39,4 +39,28 @@ This project is on eMediKart and during the making of this project we explored v
 ![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/admin_1.png)
 
 
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/admin_2.png)
 
+
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/admin_3.png)
+
+
+**App Demo**
+
+
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/app_1.png)
+
+
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/app_2.png)
+
+
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/app_3.png)
+
+
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/app_4.png)
+
+
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/app_5.png)
+
+
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/app_6.png)
