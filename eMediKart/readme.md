@@ -36,3 +36,4 @@ This project is on eMediKart and during the making of this project we explored v
 **Admin Panel Demo**
 
 
+![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/admin_1.png)
