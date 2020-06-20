@@ -1,5 +1,8 @@
 **Abstract**
 This project is on eMediKart and during the making of this project we explored various new ideas and functionalities behind our application and it help developed our programming skills especially in Android applications.Our project is based on eMediKart on the medical side. This is an android application which helps people see the information about the medicines and also can order the medicines based on the manufacturer name whether it will be available or not. It is useful in a way as it provides help to diseased people and the nearby hospitals based on the current location of the user also helps the user in case of an emergency. This application also provides the medicines at the optimal price. User can also order the bulk of medicines at once depending on the requirements and the availability of the medicines. The application also contains various features like add the cart/wishlist, online payment, latest news, etc.This project is the output of our planning, hardwork and programming skill.
 
+
 **Use Case Diagram**
+
+
 ![FlowChart](https://github.com/pujansoni/Android/blob/master/eMediKart/app/src/main/res/use_case_diagram.JPG)
