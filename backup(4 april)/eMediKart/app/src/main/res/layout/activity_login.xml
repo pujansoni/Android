@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/d_40"
+    android:paddingLeft="@dimen/d_40"
+    android:paddingRight="@dimen/d_40"
+    android:paddingTop="@dimen/d_0">
+
+    <ImageView
+        android:layout_width="@dimen/d_90"
+        android:layout_height="@dimen/d_90"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/d_30"
+        android:src="@drawable/drawer_logo" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d_60"
+        android:layout_marginBottom="@dimen/d_30"
+        android:hint="@string/email"
+        android:textSize="@dimen/d_20" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d_60"
+        android:layout_marginBottom="@dimen/d_30"
+        android:hint="@string/password"
+        android:textSize="@dimen/d_20" />
+
+    <CheckBox
+        android:id="@+id/chk_rememberMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/d_30"
+        android:text="@string/remember_me"
+        android:textSize="@dimen/d_15" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="@dimen/d_0"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/d_20"
+            android:layout_marginRight="@dimen/d_20"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/login"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/d_20" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="@dimen/d_0"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/d_20"
+            android:layout_marginRight="@dimen/d_20"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/signup"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/d_20" />
+
+    </LinearLayout>
+
+</LinearLayout>

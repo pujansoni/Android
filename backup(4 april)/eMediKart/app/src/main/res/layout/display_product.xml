@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/d_10">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_view" />
+
+            <LinearLayout
+                android:id="@+id/name_and_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_view"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:textSize="@dimen/d_30"
+                    android:id="@+id/txt1_product_name"
+                    android:textStyle="bold"
+                    android:text="Product Name"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="@dimen/d_20"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/d_20"
+                    android:id="@+id/txt1_product_description"
+                    android:text="Product Description"/>
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="@dimen/d_10"
+                android:id="@+id/just_view"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#181616"
+                android:layout_below="@id/name_and_des"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_marginTop="@dimen/d_10"
+                android:layout_width="match_parent"
+                android:text="for product price"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/just_view"/>
+
+            <TextView
+                android:id="@+id/sideeffects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/price"/>
+
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/cart_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="add to cart"
+        />
+</LinearLayout>

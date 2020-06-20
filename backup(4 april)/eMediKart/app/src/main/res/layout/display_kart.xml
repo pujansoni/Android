@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/checkout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="checkout"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"/>
+    <RelativeLayout
+        android:id="@+id/grand_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:layout_above="@id/checkout_button">
+        <TextView
+            android:id="@+id/text_for_price"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="GRAND TOTAL        :"
+            android:layout_toLeftOf="@id/final_price"/>
+        <TextView
+            android:id="@+id/final_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="price"/>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/grand_total"
+        android:layout_alignParentTop="true"
+        ></ListView>
+</RelativeLayout>

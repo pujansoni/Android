@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/categories"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No category found"
+        android:id="@+id/txt_no_category"
+        android:layout_marginTop="@dimen/d_10"
+        android:textSize="@dimen/d_20"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_category"
+        android:paddingTop="@dimen/d_60"
+        android:divider="@null">
+    </ListView>
+
+</LinearLayout>
