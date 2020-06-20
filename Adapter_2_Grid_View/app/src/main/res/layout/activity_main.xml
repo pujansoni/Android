@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grid_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:verticalSpacing="20dp"
+    android:horizontalSpacing="20dp"
+    android:columnWidth="120dp"
+    android:numColumns="auto_fit"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    tools:context="layoutdesign.com.adapter_2_grid_view.MainActivity"
+    android:stretchMode="columnWidth">
+</GridView>
