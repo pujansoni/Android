@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.layoutdesign.MainActivity"
+    android:background="@color/colorAccent"
+    android:padding="@dimen/d_30dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_call_black"
+        android:id="@+id/imgV_call"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgV_call"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="@string/username"
+        android:ems="10"
+        android:drawablePadding="@dimen/d_10dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:textSize="@dimen/d_18sp"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="@string/password"
+        android:layout_below="@+id/edt_username"
+        android:layout_marginTop="@dimen/d_20dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:textSize="@dimen/d_18sp"
+        android:imeOptions="actionNext"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_rememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remember_me"
+        android:ems="10"
+        android:layout_below="@id/edt_password"
+        android:layout_marginTop="@dimen/d_40dp"
+        android:layout_centerInParent="true"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/checkbox_rememberMe"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male"/>
+
+
+    </RadioGroup>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:background="@color/colorPrimary"
+    android:textColor="@color/colorWhite"
+    android:textStyle="bold|italic"
+    android:textSize="@dimen/d_20dp"
+    android:layout_below="@id/radiogroup_gender"
+    android:layout_marginTop="@dimen/d_50dp"/>
+
+</RelativeLayout>
